@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+}
+
+li {
+    list-style: none;
+}
+
+#rpsContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+}
+
+.gameHeader {
+    font-size: 100px;
+}
+
+button#rock, button#paper, button#scissors {
+    width: 100px;
+    height: 25px;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 32px;
+}
